@@ -33,4 +33,5 @@ class InputData(object):
                                               delimiter=",", 
                                               skiprows=1, 
                                               dtype=numpy.complex128)
-            return fullMatrixFromCSV
+
+        return fullMatrixFromCSV
